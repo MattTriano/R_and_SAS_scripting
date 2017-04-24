@@ -164,7 +164,7 @@ run;
 quit;
 */
 
-
+/*
 data a;
 	input a @@;
 	datalines;
@@ -195,6 +195,37 @@ proc print combined;
 run;
 
 quit;
+*/
 
+* InsertSum Example
+  Insert a summary statistic computed by proc means 
+  or other proc into a dataset;
 
+options ls=64 nodate pageno=1;
 
+data original;
+   input region $ store_count;
+   datalines;
+East  543
+North 245
+South 354
+West  456
+;
+
+proc means data=original noprint;
+   output out=summary sum=total;
+
+proc print data=original;
+proc print data=summary;
+
+data augmented;
+   if _n_ = 1 then set summary;
+   set original;
+   percent = 100 * store_count / total;
+   keep region store_count percent;
+
+proc print data=augmented;
+   format percent 5.2;
+
+run;
+quit;
