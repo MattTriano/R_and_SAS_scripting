@@ -1,9 +1,6 @@
 * Tropical1 Example
   Use a macro variable for simple text 
   substitution in a SAS script;
-
-proc options option = macro;
-run;
   
 %LET flowertype = Ginger;
 
