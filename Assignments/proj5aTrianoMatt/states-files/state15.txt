@@ -1,0 +1,11 @@
+Iowa
+1,Des Moines,198682
+2,Cedar Rapids,120758
+3,Davenport,98359
+4,Sioux City,85013
+5,Waterloo,68747
+6,Iowa City,62220
+7,Council Bluffs,58268
+8,Dubuque,57686
+9,Ames,50731
+10,West Des Moines,46403

@@ -1,0 +1,11 @@
+North Carolina
+1,Charlotte,540828
+2,Raleigh,276093
+3,Greensboro,223891
+4,Durham,187035
+5,Winston-Salem,185776
+6,Fayetteville,121015
+7,Cary,94536
+8,High Point,85839
+9,Wilmington,75838
+10,Asheville,68889

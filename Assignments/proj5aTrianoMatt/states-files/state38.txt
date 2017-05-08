@@ -1,0 +1,11 @@
+Pennsylvania
+1,Philadelphia,1517550
+2,Pittsburgh,334563
+3,Allentown,106632
+4,Erie,103717
+5,Upper Darby,81821
+6,Reading,81207
+7,Scranton,76415
+8,Bethlehem,71329
+9,Lower Merion,59850
+10,Bensalem,58434

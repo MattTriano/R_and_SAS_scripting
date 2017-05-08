@@ -1,0 +1,11 @@
+Utah
+1,Salt Lake City,181743
+2,West Valley City,108896
+3,Provo,105166
+4,Sandy,88418
+5,Orem,84324
+6,Ogden,77226
+7,West Jordan,68336
+8,Layton,58474
+9,Taylorsville,57439
+10,St. George,49663

@@ -1,0 +1,11 @@
+Alaska
+1,Anchorage,260283
+2,Juneau,30711
+3,Fairbanks,30224
+4,Sitka,8835
+5,Ketchikan,7922
+6,Kenai,6942
+7,Kodiak,6334
+8,Bethel,5471
+9,Wasilla,5469
+10,Barrow,4581

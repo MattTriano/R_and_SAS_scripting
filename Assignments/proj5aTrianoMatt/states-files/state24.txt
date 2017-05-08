@@ -1,0 +1,11 @@
+Mississippi
+1,Jackson,184256
+2,Gulfport,71127
+3,Biloxi,50644
+4,Hattiesburg,44779
+5,Greenville,41663
+6,Meridian,39968
+7,Tupelo,34211
+8,Southaven,28977
+9,Vicksburg,26407
+10,Pascagoula,26200

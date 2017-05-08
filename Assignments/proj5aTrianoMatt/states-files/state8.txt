@@ -1,0 +1,11 @@
+Delaware
+1,Wilmington,72664
+2,Dover,32135
+3,Newark,28547
+4,Milford,6732
+5,Seaford,6699
+6,Middletown,6161
+7,Elsmere,5800
+8,Smyrna,5679
+9,New Castle,4862
+10,Georgetown,4643

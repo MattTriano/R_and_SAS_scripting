@@ -1,0 +1,11 @@
+California
+1,Los Angeles,3694820
+2,San Diego,1223400
+3,San Jose,894943
+4,San Francisco,776733
+5,Long Beach,461522
+6,Fresno,427652
+7,Sacramento,407018
+8,Oakland,399484
+9,Santa Ana,337977
+10,Anaheim,328014

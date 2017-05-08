@@ -1,0 +1,11 @@
+New Mexico
+1,Albuquerque,448607
+2,Las Cruces,74267
+3,Santa Fe,62203
+4,Rio Rancho,51765
+5,Roswell,45293
+6,Farmington,37844
+7,Alamogordo,35582
+8,Clovis,32667
+9,Hobbs,28657
+10,Carlsbad,25625

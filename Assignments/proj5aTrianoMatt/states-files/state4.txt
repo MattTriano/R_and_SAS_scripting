@@ -1,0 +1,11 @@
+Arkansas
+1,Little Rock,183133  
+2,Fort Smith,80268 
+3,North Little Rock,60433 
+4,Fayetteville,58047  
+5,Jonesboro,55515 
+6,Pine Bluff,55085
+7,Springdale,45798 
+8,Conway,43167 
+9,Rogers,38829
+10,Hot Springs,35750 

@@ -1,0 +1,11 @@
+Georgia
+1,Atlanta,416474
+2,Augusta-Richmond County,199775
+3,Columbus,186291
+4,Savannah,131510
+5,Athens-Clarke County,101489
+6,Macon,97255
+7,Roswell,79334
+8,Albany,76939
+9,Marietta,58748
+10,Warner Robins,48804

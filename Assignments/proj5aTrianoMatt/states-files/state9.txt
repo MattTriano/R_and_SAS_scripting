@@ -1,0 +1,11 @@
+Florida
+1,Jacksonville,735617
+2,Miami,362470
+3,Tampa,303447
+4,St. Petersburg,248232
+5,Hialeah,226419
+6,Orlando,185951
+7,Fort Lauderdale,152397
+8,Tallahassee,150624
+9,Hollywood,139357
+10,Pembroke Pines,137427

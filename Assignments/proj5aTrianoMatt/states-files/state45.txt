@@ -1,0 +1,11 @@
+Vermont
+1,Burlington,38889
+2,Essex,18626
+3,Rutland,17292
+4,Colchester,16986
+5,South Burlington,15814
+6,Bennington,15737
+7,Brattleboro,12005
+8,Hartford,10367
+9,Milton,9479
+10,Barre,9291

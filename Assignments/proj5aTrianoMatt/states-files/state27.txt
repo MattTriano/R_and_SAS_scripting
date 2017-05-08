@@ -1,0 +1,11 @@
+Nebraska
+1,Omaha,390007
+2,Lincoln,225581
+3,Bellevue,44382
+4,Grand Island,42940
+5,Kearney,27431
+6,Fremont,25174
+7,Hastings,24064
+8,North Platte,23878
+9,Norfolk,23516
+10,Columbus,20971

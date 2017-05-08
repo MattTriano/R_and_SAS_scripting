@@ -1,0 +1,11 @@
+Nevada
+1,Las Vegas,478434
+2,Reno,180480
+3,Henderson,175381
+4,North Las Vegas,115488
+5,Sparks,66346 
+6,Carson City,52457
+7,Elko,16708
+8,Boulder City,14966
+9,Mesquite,9389
+10,Fallon,7536

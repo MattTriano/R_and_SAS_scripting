@@ -1,0 +1,11 @@
+Michigan
+1,Detroit,951270 
+2,Grand Rapids,197800 
+3,Warren,138247  
+4,Flint,124943  
+5,Sterling Heights,124471  
+6,Lansing,119128 
+7,Ann Arbor,114024 
+8,Livonia,100545
+9,Dearborn,97775
+10,Westland,86602

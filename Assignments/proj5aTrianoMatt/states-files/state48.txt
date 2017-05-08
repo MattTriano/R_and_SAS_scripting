@@ -1,0 +1,11 @@
+West Virginia
+1,Charleston,53421
+2,Huntington,51475
+3,Parkersburg,33099
+4,Wheeling,31419
+5,Morgantown,26809
+6,Weirton,20411
+7,Fairmont,19097
+8,Beckley,17254 
+9,Clarksburg,16743
+10,Martinsburg,14972

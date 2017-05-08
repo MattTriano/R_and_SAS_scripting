@@ -1,0 +1,11 @@
+Massachussets
+1,Boston,589141
+2,Worcester,172648
+3,Springfield,152082
+4,Lowell,105167
+5,Cambridge,101355
+6,Brockton,94304
+7,New Bedford,93768
+8,Fall River,91938
+9,Lynn,89050
+10,Quincy,88025

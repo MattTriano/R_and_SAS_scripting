@@ -1,0 +1,11 @@
+New York
+1,New York,8008278
+2,Buffalo,292648
+3,Rochester,219773
+4,Yonkers,196086
+5,Syracuse,147306
+6,Albany,95658
+7,New Rochelle,72182
+8,Mount Vernon,68381
+9,Schenectady,61821
+10,Utica,60651

@@ -1,0 +1,11 @@
+New Hampsire
+1,Manchester,107006
+2,Nashua,86605
+3,Concord,40687
+4,Derry,34021
+5,Rochester,28461
+6,Salem,28112
+7,Dover,26884
+8,Merrimack,25119
+9,Londonderry,23236
+10,Hudson,22928

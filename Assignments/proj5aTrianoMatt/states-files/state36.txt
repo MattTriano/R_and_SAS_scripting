@@ -1,0 +1,11 @@
+Oklahoma
+1,Oklahoma City,506132
+2,Tulsa,393049
+3,Norman,95694
+4,Lawton,92757
+5,Broken Arrow,74859
+6,Edmond,68315
+7,Midwest City,54088
+8,Enid,47045
+9,Moore,41138
+10,Stillwater,39065

@@ -1,0 +1,11 @@
+Connecticut
+1,Bridgeport,139529
+2,New Haven,123626
+3,Hartford,121578
+4,Stamford,117083
+5,Waterbury,107271
+6,Norwalk,82951
+7,Danbury,74848
+8,New Britain,71538
+9,West Hartford,63589
+10,Greenwich,61101

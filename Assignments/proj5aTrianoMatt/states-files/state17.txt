@@ -1,0 +1,11 @@
+Kentucky
+1,Lexington-Fayette,260512
+2,Louisville,256231
+3,Owensboro,54067
+4,Bowling Green,49296
+5,Covington,43370
+6,Hopkinsville,30089
+7,Frankfort,27741
+8,Henderson,27373
+9,Richmond,27152
+10,Jeffersontown,26633

@@ -1,0 +1,11 @@
+Colorado
+1,Denver,554636
+2,Colorado Springs,360890
+3,Aurora,276393
+4,Lakewood,144126
+5,Fort Collins,118652
+6,Arvada,102153
+7,Pueblo,102121
+8,Westminster,100940
+9,Boulder,94673
+10,Thornton,82384

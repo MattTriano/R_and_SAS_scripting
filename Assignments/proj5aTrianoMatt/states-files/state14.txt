@@ -1,0 +1,11 @@
+Indiana
+1,Indianapolis,791926
+2,Fort Wayne,205727
+3,Evansville,121582
+4,South Bend,107789
+5,Gary,102746
+6,Hammond,83048
+7,Bloomington,69291
+8,Muncie,67430
+9,Anderson,59734
+10,Terre Haute,59614

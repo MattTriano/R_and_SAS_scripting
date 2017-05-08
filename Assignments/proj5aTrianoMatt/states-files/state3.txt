@@ -1,0 +1,11 @@
+Arizona
+1,Phoenix,1321045
+2,Tucson,486699 
+3,Mesa,396375
+4,Glendale,218812 
+5,Scottsdale,202705 
+6,Chandler,176581 
+7,Tempe,158625
+8,Gilbert,109697 
+9,Peoria,108364
+10,Yuma,77515 

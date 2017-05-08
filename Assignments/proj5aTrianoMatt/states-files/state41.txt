@@ -1,0 +1,11 @@
+South Dakota
+1,Sioux Falls,123975
+2,Rapid City,59607
+3,Aberdeen,24658
+4,Watertown,20237
+5,Brookings,18504
+6,Mitchell,14558
+7,Pierre,13876
+8,Yankton,13528
+9,Huron,11893
+10,Vermillion,9765

@@ -1,0 +1,11 @@
+South Carolina
+1,Columbia,116278
+2,Charleston,96650
+3,North Charleston,79641
+4,Greenville,56002
+5,Rock Hill,49765
+6,Mount Pleasant,47609
+7,Spartanburg,39673
+8,Sumter,39643
+9,Hilton Head Island,33862
+10,Florence,30248

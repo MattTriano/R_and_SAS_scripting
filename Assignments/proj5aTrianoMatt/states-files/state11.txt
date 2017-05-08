@@ -1,0 +1,11 @@
+Hawaii
+1,Honolulu,371657
+2,Hilo,40759
+3,Kailua,36513
+4,Kaneohe,34970
+5,Waipahu,33108
+6,Pearl City,30976
+7,Waimalu,29371
+8,Mililani Town,28608
+9,Kahului,20146
+10,Kihei,16749

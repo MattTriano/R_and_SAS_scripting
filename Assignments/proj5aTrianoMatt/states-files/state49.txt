@@ -1,0 +1,11 @@
+Wisconsin
+1,Milwaukee,596974
+2,Madison,208054
+3,Green Bay,102313
+4,Kenosha,90352
+5,Racine,81855
+6,Appleton,70087
+7,Waukesha,64825
+8,Oshkosh,62916
+9,Eau Claire,61704
+10,West Allis,61254

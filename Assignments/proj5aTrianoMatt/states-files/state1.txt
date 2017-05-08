@@ -1,0 +1,11 @@
+Alabama
+1,Birmingham,242820  
+2,Montgomery,201568 
+3,Mobile,198915 
+4,Huntsville,158216
+5,Tuscaloosa,77906
+6,Hoover,62742
+7,Dothan,57737 
+8,Decatur,53929 
+9,Auburn,42987 
+10,Gadsden,38978 

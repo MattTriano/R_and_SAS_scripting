@@ -1,0 +1,11 @@
+Maine
+1,Portland,64249
+2,Lewiston,35690
+3,Bangor,31473
+4,South Portland,23324
+5,Auburn,23203 
+6,Brunswick,21172
+7,Biddeford,20942
+8,Sanford,20806
+9,Augusta,18560
+10,Scarborough,16970

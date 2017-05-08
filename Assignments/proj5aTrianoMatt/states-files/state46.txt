@@ -1,0 +1,11 @@
+Virgina
+1,Virginia Beach,425257
+2,Norfolk,234403
+3,Chesapeake,199184
+4,Richmond,197790
+5,Newport News,180150
+6,Hampton,146437
+7,Alexandria,128283
+8,Portsmouth,100565
+9,Roanoke,94911
+10,Lynchburg,65269

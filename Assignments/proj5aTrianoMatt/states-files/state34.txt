@@ -1,0 +1,11 @@
+North Dakota
+1,Fargo,90599
+2,Bismarck,55532
+3,Grand Forks,49321
+4,Minot,36567
+5,Mandan,16718
+6,Dickinson,16010
+7,Jamestown,15527
+8,West Fargo,14940
+9,Williston,12512
+10,Wahpeton,8586

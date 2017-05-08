@@ -1,0 +1,11 @@
+Wyoming
+1,Cheyenne,53011
+2,Casper,49644
+3,Laramie,27204
+4,Gillette,19646
+5,Rock Springs,18708
+6,Sheridan,15804
+7,Green River,11808
+8,Evanston,11507
+9,Riverton,9310
+10,Cody,8835

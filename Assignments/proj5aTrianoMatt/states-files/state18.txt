@@ -1,0 +1,11 @@
+Louisiana
+1,New Orleans,484674
+2,Baton Rouge,227818
+3,Shreveport,200145
+4,Lafayette,110257
+5,Lake Charles,71757
+6,Kenner,70517
+7,Bossier City,56461
+8,Monroe,53107
+9,Alexandria,46342
+10,New Iberia,32623

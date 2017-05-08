@@ -1,0 +1,11 @@
+Tennesee
+1,Memphis,650100
+2,Nashville-Davidson,569891
+3,Knoxville,173890
+4,Chattanooga,155554
+5,Clarksville,103455
+6,Murfreesboro,68816
+7,Jackson,59643
+8,Johnson City,55469
+9,Kingsport,44905
+10,Franklin,41842

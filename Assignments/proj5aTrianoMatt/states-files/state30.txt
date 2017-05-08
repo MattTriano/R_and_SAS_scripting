@@ -1,0 +1,11 @@
+New Jersey
+1,Newark,273546
+2,Jersey City,240055
+3,Paterson,149222
+4,Elizabeth,120568
+5,Edison,97687
+6,Woodbridge,97203
+7,Dover,89706
+8,Hamilton,87109
+9,Trenton,85403
+10,Camden,79904

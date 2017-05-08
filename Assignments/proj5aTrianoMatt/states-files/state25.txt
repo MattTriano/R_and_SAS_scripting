@@ -1,0 +1,11 @@
+Missouri
+1,Kansas City,441545
+2,St. Louis,348189
+3,Springfield,151580
+4,Independence,113288
+5,Columbia,84531
+6,St. Joseph,73990
+7,Lee's Summit,70700
+8,St. Charles,60321
+9,St. Peters,51381
+10,Florissant,50497

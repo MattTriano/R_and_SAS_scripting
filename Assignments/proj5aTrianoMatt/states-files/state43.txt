@@ -1,0 +1,11 @@
+Texas
+1,Houston,1953631
+2,Dallas,1188580
+3,San Antonio,1144646
+4,Austin,656562
+5,El Paso,563662
+6,Fort Worth,534694
+7,Arlington,332969
+8,Corpus Christi,277454
+9,Plano,222030
+10,Garland,215768

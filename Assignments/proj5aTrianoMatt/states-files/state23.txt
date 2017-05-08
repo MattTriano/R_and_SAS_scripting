@@ -1,0 +1,11 @@
+Minnesota
+1,Minneapolis,382618
+2,St. Paul,287151
+3,Duluth,86918
+4,Rochester,85806
+5,Bloomington,85172
+6,Brooklyn Park,67338
+7,Plymouth,65894
+8,Eagan,63557
+9,Coon Rapids,61607
+10,Burnsville,60220

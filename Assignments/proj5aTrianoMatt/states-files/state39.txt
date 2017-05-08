@@ -1,0 +1,11 @@
+Rhode Island
+1,Providence,173618
+2,Warwick,85808
+3,Cranston,79269
+4,Pawtucket,72958
+5,East Providence,48688
+6,Woonsocket,43224
+7,Coventry,33668
+8,North Providence,32411
+9,Cumberland,31840
+10,West Warwick,29581

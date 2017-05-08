@@ -1,0 +1,11 @@
+Illinois
+1,Chicago,2896016
+2,Rockford,150115
+3,Aurora,142990
+4,Naperville,128358
+5,Peoria,112936
+6,Springfield,111454
+7,Joliet,106221
+8,Elgin,94487
+9,Waukegan,87901
+10,Cicero,85616

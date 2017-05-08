@@ -1,0 +1,11 @@
+Oregon
+1,Portland,529121
+2,Eugene,137893
+3,Salem,136924
+4,Gresham,90205
+5,Beaverton,76129
+6,Hillsboro,70186
+7,Medford,63154
+8,Springfield,52864
+9,Bend,52029
+10,Corvallis,49322

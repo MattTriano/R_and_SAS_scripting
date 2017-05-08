@@ -1,0 +1,11 @@
+Washington
+1,Seattle,563374
+2,Spokane,195629
+3,Tacoma,193556
+4,Vancouver,143560
+5,Bellevue,109569
+6,Everett,91488
+7,Federal Way,83259
+8,Kent,79524
+9,Yakima,71845
+10,Bellingham,67171

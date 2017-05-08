@@ -1,0 +1,11 @@
+Idaho
+1,Boise,185787
+2,Nampa,51867  
+3,Pocatello,51466 
+4,Idaho Falls,50730 
+5,Meridian,34919 
+6,Coeur d'Alene,34514
+7,Twin Falls,34469
+8,Lewiston,30904
+9,Caldwell,25967
+10,Moscow,21291
