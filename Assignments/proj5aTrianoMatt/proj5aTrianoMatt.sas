@@ -38,6 +38,8 @@ options mprint;
 /*run;*/
 /*quit;*/
 
+*UNCOMMENT BELOW;
+
 
 %MACRO create_datasets(num_states=);
 
@@ -46,10 +48,15 @@ libname states 'c:/states-datasets';
    data state_name;
 		infile "c:/states-files/state&k..txt" dlm="," obs=1;
     	length state $ 20;
-    	length city $ 20;
     	input state $;
-		input #1 city $;
-    	dsname = tranwrd(trim(state), " ", "_");
+		state = trim(state)
+		%IF index(state, " ") = 0 then %DO;
+			dsname = tranwrd(trim(state), " ", "_");
+		%END
+		%ELSE %DO;
+			dsname = state;
+		%end;
+
     	call symput("name", state);
     	call symput("dsname", dsname);
 
@@ -66,7 +73,7 @@ libname states 'c:/states-datasets';
     	input rank city $ popul;
         output;
 	end;
-    keep i state;
+    keep i state city popul;
 
 	data states.&name;
 		set state_name;
@@ -82,31 +89,29 @@ libname states 'c:/states-datasets';
 
 run;
 quit;
-/* Stopped lecture at 2:14, he's about to go into possibly relevant examples */
+/* END UNCOMMENT */
 
 /*
-libname states c:/states-datasets;
+libname states 'c:/states-datasets';
 
-data state_data;
-	infile "c:/states-files/state34.txt" dlm=",";
+data state_name;
+	infile "c:/states-files/state34.txt" dlm="," obs=1;
     length state $ 20;
-    length city $ 20;
     input state $;
     dsname = tranwrd(trim(state), " ", "_");
     call symput("name", state);
     call symput("dsname", dsname);
 
-    do i = 1 to 50;
+/*    do i = 1 to 50;
     	input rank city $ popul;
         output;
 	end;
     keep i state;
 
-data states.&name;
-	set state_data;
+data states.name;
+	set state_name;
 run;
 
-proc print data=state_data;
+proc print data=state_name;
 run;
-quit;
-*/;
+quit;*/
