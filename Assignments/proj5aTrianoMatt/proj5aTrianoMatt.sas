@@ -83,30 +83,28 @@ quit;*/
 
 
 data state_name;
-	infile "c:/states-files/state34.txt" dlm="," obs=1;
+	infile "c:/states-files/state1.txt" dlm="," obs=1;
     length state $ 20;
     input state $;
+	dsname = trim(state);
+	IF find(trim(state), " ") ge 1 THEN DO;
+		dsname = tranwrd(trim(state), " ", "_");
+	END;
+run;
+
 data city_data;
-	infile "c:/states-files/state34.txt" dlm="," firstobs=2;
-	length city_data $ 20;
-	input city_data;
+	infile "c:/states-files/state34.txt" dlm="," firstobs=2 lrecl=200 truncover;
+	input city_data $1-40;
 	rank 		= scan(city_data,1,',');
 	city_name	= scan(city_data,2,',');
 	popul 		= scan(city_data,3,',');
-/*	state = trim(state);*/
-	/*IF index(&state, " ") = 0 THEN DO;
-		dsname = tranwrd(trim(state), " ", "_");
-	END;
-	ELSE DO;
-		dsname = state;
-	END;
-   	call symput("name", state);
-   	call symput("dsname", dsname);*/
 run;
 
 proc print data=state_name;
-	var state;
+	var state dsname;
 proc print data=city_data;
-	var city_name popul;
+	var rank city_name popul;
+/*proc print data=city_data;*/
+
 run;
 quit;
