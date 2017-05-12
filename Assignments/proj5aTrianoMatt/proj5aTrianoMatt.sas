@@ -15,9 +15,9 @@ libname states "c:/states-datasets";
     	length state $ 20;
     	input state $;
 		dsname = trim(state);
-		%IF find(trim(state), " ") ge 1 %THEN %DO;
+		IF find(trim(state), " ") ge 1 THEN DO;
 			dsname = tranwrd(trim(state), " ", "_");
-		%END;
+		END;
 	run;
 	data city_data;
 		infile "c:/states-files/state34.txt" dlm="," firstobs=2 lrecl=200 truncover;
@@ -51,7 +51,7 @@ libname states "c:/states-datasets";
     	call symput("dsname", dsname);
 	*/
 
-    %do i = 1 %to 50;
+    %do i = 1 %to &num_states;
     	input rank city_name $ popul;
         output;
 	%end;
