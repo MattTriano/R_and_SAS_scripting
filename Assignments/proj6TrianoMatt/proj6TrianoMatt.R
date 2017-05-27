@@ -2,12 +2,9 @@ etwd('C:/datasets')
 
 mycbind <- function(A, B) {
   size_A <- dim(A)
-#  print(cat('size_A is ', size_A[1], ' by ', size_A[2], '\n'))
   size_B <- dim(B)
-#  print(cat('size_B is ', size_B[1], ' by ', size_B[2], '\n'))
   C <- matrix(data=NA, nrow=size_A[1], ncol=(size_A[2] + size_B[2]))
   size_C <- dim(C)
-#  print(cat('size_C is ', size_C[1], ' by ', size_C[2], '\n'))
   for (r in 1:size_C[1]) {
     for (c in 1:size_C[2]) {
       if (c <= size_A[2]) {
@@ -20,18 +17,37 @@ mycbind <- function(A, B) {
   return(C)
 }
 
+mycbind1 <- function(A, B) {
+  C <- matrix(data=NA, nrow=nrow(A), ncol=(ncol(A) + ncol(B)))
+  for (r in 1:nrow(C)) {
+    for (c in 1:ncol(C)) {
+      if (c <= ncol(A)) {
+        C[r,c] <- A[r,c]
+      } else {
+        C[r,c] <- B[r,c-ncol(A)]
+      }
+    }
+  }
+  return(C)
+}
+
 func_timer <- function(n, f='mycbind') {
   A <- matrix(runif(n * n), n, n)
   B <- matrix(runif(n * n), n, n)
   if (f == 'mycbind'){
     f_runtime <- system.time(mycbind(A,B))
+  } else if (f == 'mycbind1') {
+    f_runtime <- system.time(mycbind1(A,B))
   } else {
     f_runtime <- system.time(reg_cbind(A,B))
   }
+  f_runtime1 <- system.time(mycbind1(A,B))
+  print(cat('mycbind :', f_runtime, '\n'))
+  print(cat('mycbind1:', f_runtime1,'\n'))
   return(f_runtime)
 }
 
-func_timer(2000)
+func_timer(700)
 
 
 n <- 20
