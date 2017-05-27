@@ -109,4 +109,7 @@ proc freq data=baylor;
 	title 'Heterogeneous Racial Dating By God-Belief';
 run;
 
+proc print data=baylor;
+	var id bibleinterp god_belief daterace gender income;
+
 quit;
