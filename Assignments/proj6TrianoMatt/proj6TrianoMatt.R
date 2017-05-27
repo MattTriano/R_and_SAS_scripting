@@ -17,48 +17,43 @@ mycbind <- function(A, B) {
   return(C)
 }
 
-mycbind1 <- function(A, B) {
-  C <- matrix(data=NA, nrow=nrow(A), ncol=(ncol(A) + ncol(B)))
-  for (r in 1:nrow(C)) {
-    for (c in 1:ncol(C)) {
-      if (c <= ncol(A)) {
-        C[r,c] <- A[r,c]
-      } else {
-        C[r,c] <- B[r,c-ncol(A)]
-      }
-    }
-  }
-  return(C)
-}
 
 func_timer <- function(n, f='mycbind') {
   A <- matrix(runif(n * n), n, n)
   B <- matrix(runif(n * n), n, n)
   if (f == 'mycbind'){
     f_runtime <- system.time(mycbind(A,B))
-  } else if (f == 'mycbind1') {
-    f_runtime <- system.time(mycbind1(A,B))
   } else {
     f_runtime <- system.time(reg_cbind(A,B))
   }
-  f_runtime1 <- system.time(mycbind1(A,B))
-  print(cat('mycbind :', f_runtime, '\n'))
-  print(cat('mycbind1:', f_runtime1,'\n'))
   return(f_runtime)
 }
 
-func_timer(700)
+
+func_timer_grapher <- function(n_vec, f='mycbind') {
+  func_time_vec <- sapply(n_vec, func_timer, f=f)
+  func_df <- data.frame(x=n_vec, y=func_time_vec[3,1:length(n_vec)])
+  title <- paste0("Runtime of Function ", f, " as a Function of Input Size")
+  plot(func_df, type="l", main=title, ylab="Runtime (in seconds)", xlab="Input Size (dimensionless)")
+  return(func_df)
+}
+n_vec <- c(20, 40, 60)
+n_vec <- c(200, 400, 600)
+n_vec <- c(200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000)
+n_vec <- c(20, 40, 60, 80, 100, 120, 140, 160, 180, 200)
+funk <- func_timer_grapher(n_vec)
 
 
-n <- 20
-A <- matrix(runif(n * n), n, n)
-B <- matrix(runif(n * n), n, n)
 
-C <- mycbind(A,B)
+## this test code creates small samples and checks that data is being put in the
+## right place indexed location using the sample 
+# n <- 20
+# A <- matrix(runif(n * n), n, n)
+# B <- matrix(runif(n * n), n, n)
+# C <- mycbind(A,B)
 
-# this checks that data is being put in the right place indexed location
-C_A <- C[1:nrow(A), 1:ncol(A)]
-C_A - A
-C_B <- C[1:nrow(B), (ncol(A)+1):ncol(C)]
-C_B - B
+# C_A <- C[1:nrow(A), 1:ncol(A)]
+# C_A - A
+# C_B <- C[1:nrow(B), (ncol(A)+1):ncol(C)]
+# C_B - B
 
