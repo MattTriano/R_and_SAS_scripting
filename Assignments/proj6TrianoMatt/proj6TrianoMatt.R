@@ -73,9 +73,7 @@ func_timer_grapher <- function(n_vec, f='both') {
 # These are vectors containing input sizes
 n_vec <- c(200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000)
 n_vec_test <- c(20, 40, 60, 80, 100, 120, 140, 160, 180, 200)
-n_cbind <- c(20000, 40000, 60000, 80000, 100000, 120000, 140000, 160000, 180000, 200000)
 func_t <- func_timer_grapher(n_vec)
-func_c <- func_timer_grapher(n_cbind, f='reg_cbind')
 
 ## this test code creates small samples and checks that data is being put in the
 ## right place indexed location using the sample 

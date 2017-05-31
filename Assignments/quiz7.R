@@ -25,4 +25,4 @@ g <- function(f) {
   return(f(16))
 }
 print(g(sqrt))
-  
+
