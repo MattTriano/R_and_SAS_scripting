@@ -1,14 +1,4 @@
-
-
-Die <- function( ) {
-  this <- list(history=integer(0));
-  class(this) <- "Die"
-  return(this)
-}
-
-print.Die <- function(theObject) {
-  cat("History: ", theObject$history, "\n")
-}
+# Not sure if it was intentional, but Chloresterol is actually spelled Cholesterol
 
 ChlorReads <- function(self.id, self.name, self.gender, self.ldl, self.hdl, self.trigl) {
   this <- list(id=self.id, name=self.name, gender=self.gender, ldl=self.ldl, hdl=self.hdl, trigl=self.trigl)
@@ -60,7 +50,15 @@ get.trigl <- function(self) {
 
 plot.ChlorReads <- function(self) {
   counts <- c(self$ldl, self$hdl, self$trigl)
-  barplot(height=counts, ylim=c(0, max(counts)), names=c("LDL","HDL","Triglycerides"))
+  if (max(counts) >= 300) {
+    max_y <- max_counts
+  } else {
+    max_y <- 300
+  }
+  barplot(height=counts, ylim=c(0, max_y), names=c("LDL","HDL","Triglycerides"),
+          main="Cholesterol Readings", xpd=F, yaxp=c(0,max_y,6),
+          legend.text=paste0("ID: ", self$id, " Name: ", self$name, " Gender: ", self$gender),
+          beside=T, args.legend=list(x="topleft", bty='n', pch=NULL, pt.bg='white'))
 }
 
 print.ChlorReads <- function(self) {
@@ -68,11 +66,32 @@ print.ChlorReads <- function(self) {
       get.ldl(self), " HDL:", get.hdl(self), " Triglycerides:", get.trigl(self), "\n")
 }
 
+# generic 
+getPatientInfo <- function(self) {
+  UseMethod("getPatientInfo", self)
+}
+
+getPatientInfo.ChlorReads <- function(self) {
+  data <- sprintf("%-06s %-07s %-02s", self$id, self$name, self$gender)
+  cat("ID     Name    Gender\n", data, sep="")
+}
+
+# generic, Chloresterol is spelled
+getChloresterol <- function(self) {
+  UseMethod("getChloresterol", self)
+}
+
+getChloresterol.ChlorReads <- function(self) {
+  data <- sprintf("%-04i%02i  %-04i", self$ldl, self$hdl, self$trigl)
+  cat("LDL HDL Trigl\n",data, sep="")
+}
+
 p1 <- ChlorReads(9876, "Virgil", "M", 248, 45, 148)
 print.ChlorReads(p1)
 print(p1)
 plot(p1)
 
-
+getPatientInfo(p1)
+getChloresterol(p1)
 
 #stopped the 2nd to last lectura aropund 1:30:00
