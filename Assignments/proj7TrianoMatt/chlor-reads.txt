@@ -1,0 +1,13 @@
+id   name     gender  ldl hdl trigl
+1111 Charlene  F      111  81 136
+2222 Charles   M      141  78 123
+3333 Kate      F      121  63 141
+4444 Alice     F       97  79 111
+5555 Jason     M      121  85 123
+6666 Spencer   M      111  81 127
+7777 Mary      F      108  86 120
+8888 Jarrod    M      252  38 411
+9999 Cary      M      121  47 139
+1234 Michael   M      123  49 134
+2345 Charlotte F      135  69 361
+3456 Blake     F       95  57 126
